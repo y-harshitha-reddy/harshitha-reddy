@@ -162,7 +162,7 @@ if apply_filters:
             # Right column for image
             with col2:
                 if pd.notna(row['Image URL']):
-                    st.image(row['Image URL'], caption=f"{row['Trip Location']}", use_column_width=True)
+                    st.image(row['Image URL'], caption=f"{row['Trip Location']}", use_container_width=True)
 
         st.write('---')
 
